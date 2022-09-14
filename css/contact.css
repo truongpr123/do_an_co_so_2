@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.content-contact{
+    margin-top: 10px;
+}
+.content-contact p{
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+.content-contact label{
+    padding: 30px 0;
+    font-size: 18px;
+}
+
+.content-contact input{
+    margin-top: 5px;
+    width: 90%;
+    height: 40px;
+    padding: 0 10px;
+}
+
+.content-contact button {
+    margin-top: 10px;
+    height: 40px;
+    width: 20%;
+    cursor: pointer;
+    color: #fff;
+    background-color: black;
+}
+
+
+.content-contact button:hover {
+    background-color: rgb(149, 151, 152);
+    border: none;
+    transition: all 0.3s;
+} 
+
+.content-contact textarea {
+    padding: 5px 10px;
+    margin-top: 5px;
+}
+
+.map {
+    margin-top: 10px;
+}

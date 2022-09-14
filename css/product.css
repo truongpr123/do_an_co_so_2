@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: #f3f5f7; */
+}
+
+.header3 {
+    height: 40px;
+    background-color: rgba(0,0,0,0.05);
+    line-height: 40px;
+}
+
+.header3 p {
+    color: rgb(93, 88, 88);
+    margin-left: 30px;
+}
+.course-content1 {
+    min-height: 400px;
+}
+
+.subject{
+    margin-top: 20px;
+    background-color:  rgba(0,0,0,0.05);
+    min-height: 610px;
+    padding: 0 10px;
+    /* padding-top: 10px; */
+}
+.subject h3 {
+    padding-top: 20px;
+}
+.subject a{
+    color: rgb(93, 91, 91);
+    cursor: pointer;
+    text-decoration: none;
+} 
+.subject li{
+    padding-top: 10px;
+    list-style-type: none;
+    cursor: pointer;
+}
+
+.subject > li:hover > a{
+    color: rgb(10, 174, 174);
+    transition: all 0.3s;
+}
+.subject li:hover {
+    color: rgb(10, 174, 174);
+    transition: all 0.3s;
+}
+.nav-subject li:hover a{
+    color: rgb(10, 174, 174);
+    transition: all 0.3s;
+}
+.subject i{
+    cursor: pointer;
+}
+.subject li:hover ul{
+    display: block;
+    
+}
+.subject ul{
+    display: block;
+    display: none;
+}
+.subject ul li{
+    margin-left: 20px;
+    display: block;
+}
+.search{
+    margin-top: 20px;
+}
+.action-link ul li{
+    margin-bottom: 20px;
+}
+.import{
+    display: flex;
+    background-color: rgba(0,0,0,0.05);
+    margin-top: 5px;
+    height: 50px;
+    line-height: 50px;
+    /* display: block; */
+}
+.import h4 {
+    margin-left: 10px;
+}
+.import input{
+    margin-left: 5px;
+    padding: 0 5px;
+    height: 30px;
+    width: 50%;
+    display: block;
+    transform: translateY(10px);
+}
+.import button {
+    height: 30px;
+    width: 7%;
+    transform: translateY(10px);
+    background-color: black;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.row-button  {
+    margin-top: 10px;
+    /* margin-bottom: 85px; */
+    /* margin-left: 340px; */
+    /* border: 1px solid #e3e1e1 ; */
+    text-align: center;
+    padding: 15px 3px;
+    display: inline-block;
+    /* width: 50%; */
+}
+.row2 ul li{
+    display: inline;
+    margin: 10px 5px;
+    border: 1px solid #ddd;
+     font-size: 14px;
+    font-weight: bold;
+    background-color: rgba(0,0,0,0.05);
+     cursor: pointer;
+    padding: 5px 6px;
+    }
+    .row2 ul li > a{
+    text-decoration: none;
+    color: #585858;
+    }
+    .row2 ul li:hover{
+        background-color: #f7b111;
+    }
+    .row2 li.main{
+        background-color: rgba(0,0,0,0.5);
+    }
+    
